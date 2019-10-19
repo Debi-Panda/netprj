@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background: #000;
+    color: #999;
+}
+
+.showcase{
+    width: 100%;
+    height: 66px;
+    position: relative;
+}
+
+.showcase-top{
+    position: relative;
+    height: 90px;
+    z-index: 2;
+}
+
+.showcase-top img{
+    width: 120px;
+    position: absolute;
+    top: 13px;
+    left: 2px;
+    transform: translate(2px, 5px);
+}
+
+.admin-wrapper {
+    display: flex;
+    height:calc(100% - 46px);
+}
+
+.admin-wrapper .left-sidebar {
+    flex: 2;
+    height: 100%;
+    background: orchid;
+}
